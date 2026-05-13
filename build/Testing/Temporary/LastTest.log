@@ -1,0 +1,91 @@
+Start testing: May 07 16:27 RTZ 2 (çèìà)
+----------------------------------------------------------
+18/30 Testing: CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries
+18/30 Test: CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries"
+Directory: C:/Users/user/Desktop/proxy server/build
+"CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries" start time: May 07 16:27 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CacheServiceIntegrationTest
+[ RUN      ] CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries
+[       OK ] CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries (12 ms)
+[----------] 1 test from CacheServiceIntegrationTest (12 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (12 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries" end time: May 07 16:27 RTZ 2 (çèìà)
+"CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/30 Testing: CacheServiceIntegrationTest.HandlesExpiredEntriesLimitsAndClear
+19/30 Test: CacheServiceIntegrationTest.HandlesExpiredEntriesLimitsAndClear
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=CacheServiceIntegrationTest.HandlesExpiredEntriesLimitsAndClear"
+Directory: C:/Users/user/Desktop/proxy server/build
+"CacheServiceIntegrationTest.HandlesExpiredEntriesLimitsAndClear" start time: May 07 16:27 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = CacheServiceIntegrationTest.HandlesExpiredEntriesLimitsAndClear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CacheServiceIntegrationTest
+[ RUN      ] CacheServiceIntegrationTest.HandlesExpiredEntriesLimitsAndClear
+[       OK ] CacheServiceIntegrationTest.HandlesExpiredEntriesLimitsAndClear (21 ms)
+[----------] 1 test from CacheServiceIntegrationTest (21 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (21 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"CacheServiceIntegrationTest.HandlesExpiredEntriesLimitsAndClear" end time: May 07 16:27 RTZ 2 (çèìà)
+"CacheServiceIntegrationTest.HandlesExpiredEntriesLimitsAndClear" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/30 Testing: CacheServiceIntegrationTest.EnforcesLoweredByteLimitOnExistingEntries
+20/30 Test: CacheServiceIntegrationTest.EnforcesLoweredByteLimitOnExistingEntries
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=CacheServiceIntegrationTest.EnforcesLoweredByteLimitOnExistingEntries"
+Directory: C:/Users/user/Desktop/proxy server/build
+"CacheServiceIntegrationTest.EnforcesLoweredByteLimitOnExistingEntries" start time: May 07 16:27 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = CacheServiceIntegrationTest.EnforcesLoweredByteLimitOnExistingEntries
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CacheServiceIntegrationTest
+[ RUN      ] CacheServiceIntegrationTest.EnforcesLoweredByteLimitOnExistingEntries
+[       OK ] CacheServiceIntegrationTest.EnforcesLoweredByteLimitOnExistingEntries (10 ms)
+[----------] 1 test from CacheServiceIntegrationTest (10 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (10 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"CacheServiceIntegrationTest.EnforcesLoweredByteLimitOnExistingEntries" end time: May 07 16:27 RTZ 2 (çèìà)
+"CacheServiceIntegrationTest.EnforcesLoweredByteLimitOnExistingEntries" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: May 07 16:27 RTZ 2 (çèìà)
+
+postgres =   0.19 sec*proc
+
+redis =   0.19 sec*proc
+
+unit =   0.19 sec*proc
+

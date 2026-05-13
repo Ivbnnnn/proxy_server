@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4a472ad7-b6d9-33f9-ac92-393c9a388413" DefaultStartup="true">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="http_proxy_server.vcxproj"/>
+		<BuildDependency Project="proxy_core.vcxproj"/>
+		<BuildDependency Project="proxy_unit_tests.vcxproj"/>
+		<BuildDependency Project="scenario_block_and_log.vcxproj"/>
+		<BuildDependency Project="scenario_cache_admin_flow.vcxproj"/>
+		<BuildDependency Project="scenario_export_requests.vcxproj"/>
+		<BuildDependency Project="scenario_proxy_cache.vcxproj"/>
+		<BuildDependency Project="scenario_whitelist_crud.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="Continuous.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5b3822dd-0e8b-3276-850b-f3d14c323461">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="Experimental.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="414be01a-1313-3d8a-b394-f1f0db31316e">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="Nightly.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f89b2ab3-02ae-3e9e-943c-0a4707d81d8e">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="NightlyMemoryCheck.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="64c00471-bc99-3d74-aa84-b9f1be4cab52">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="RUN_TESTS.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f26539a3-b132-3007-9807-29db24ecbd43">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="7aad6e08-b54b-354b-8e8d-c5f499b96f7b"/>
+	<Project Path="http_proxy_server.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f4ca853e-f880-3e9a-8b7b-191a4b6f6435">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="proxy_core.vcxproj"/>
+	</Project>
+	<Project Path="proxy_core.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="58d116dd-6675-3416-9e7e-226b89e397c8">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="proxy_unit_tests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="915adbff-97b5-3c56-8346-66c5ddb4559e">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="proxy_core.vcxproj"/>
+	</Project>
+	<Project Path="scenario_block_and_log.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="964c141f-61c9-333e-99af-2c8233f1d619">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="proxy_core.vcxproj"/>
+	</Project>
+	<Project Path="scenario_cache_admin_flow.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="fc315d52-7a9d-3954-9246-ac8a82633322">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="proxy_core.vcxproj"/>
+	</Project>
+	<Project Path="scenario_export_requests.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="eb20f381-e1e5-36ba-a2c2-e73d378801a5">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="proxy_core.vcxproj"/>
+	</Project>
+	<Project Path="scenario_proxy_cache.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="dfbd4ef0-a42a-3faf-b0fa-09364028016e">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="proxy_core.vcxproj"/>
+	</Project>
+	<Project Path="scenario_whitelist_crud.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="fa74289e-7d23-3887-a4d8-de5b057780b1">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="proxy_core.vcxproj"/>
+	</Project>
+</Solution>

@@ -1,0 +1,198 @@
+{
+  "tests": 24,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "TypesTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "ConvertsStringsAndEnums",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 42
+        },
+        {
+          "name": "ConvertsTimeRoundTripAndIso8601",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 59
+        }
+      ]
+    },
+    {
+      "name": "AdminUserTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "StoresConstructorValuesAndDefaults",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 70
+        },
+        {
+          "name": "CanLoginRequiresActiveAdminWithLogin",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 82
+        },
+        {
+          "name": "SettersUpdateAllMutableFields",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 98
+        }
+      ]
+    },
+    {
+      "name": "WhitelistRuleTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "MatchesExactPrefixContainsRegexCaseInsensitive",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 120
+        },
+        {
+          "name": "RejectsDisabledEmptyAndInvalidRegexRules",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 134
+        },
+        {
+          "name": "SettersUpdateMetadata",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 140
+        }
+      ]
+    },
+    {
+      "name": "CacheEntryTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "ConstructorSetsResponseAndExpirationData",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 159
+        },
+        {
+          "name": "TouchUpdatesAccessTimeAndHitCount",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 174
+        },
+        {
+          "name": "SettersAndExpirationChecksWork",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 184
+        }
+      ]
+    },
+    {
+      "name": "RequestRecordTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "DefaultsAndSettersWork",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 214
+        }
+      ]
+    },
+    {
+      "name": "AppLoggerTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "FiltersByLevelAndWritesToFile",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 249
+        }
+      ]
+    },
+    {
+      "name": "RedisServiceIntegrationTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "SupportsBasicKeyOperations",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 274
+        },
+        {
+          "name": "ExpiresKeysByTtl",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 295
+        }
+      ]
+    },
+    {
+      "name": "DBServiceIntegrationTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "PersistsWhitelistRules",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 303
+        },
+        {
+          "name": "PersistsRequestsAndAdminUsers",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 333
+        }
+      ]
+    },
+    {
+      "name": "CacheServiceIntegrationTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "PutsGetsTouchesAndRemovesEntries",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 381
+        },
+        {
+          "name": "HandlesExpiredEntriesLimitsAndClear",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 403
+        }
+      ]
+    },
+    {
+      "name": "FilterServiceIntegrationTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "AllowsOnlyEnabledMatchingRulesAndReloads",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 430
+        }
+      ]
+    },
+    {
+      "name": "ProxyControllerIntegrationTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "BlocksRequestsWithoutWhitelistAndPersistsHistory",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 451
+        },
+        {
+          "name": "CachesAllowedUpstreamResponses",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 480
+        },
+        {
+          "name": "ReportsFetcherFailures",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 519
+        }
+      ]
+    },
+    {
+      "name": "AdminUIIntegrationTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "ManagesDataAndExportsCsv",
+          "file": "C:\\Users\\user\\Desktop\\proxy server\\tests\\unit\\proxy_unit_tests.cpp",
+          "line": 552
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+Start testing: May 13 22:25 RTZ 2 (çèìà)
+----------------------------------------------------------
+1/30 Testing: TypesTest.ConvertsStringsAndEnums
+1/30 Test: TypesTest.ConvertsStringsAndEnums
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=TypesTest.ConvertsStringsAndEnums"
+Directory: C:/Users/user/Desktop/proxy server/build
+"TypesTest.ConvertsStringsAndEnums" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = TypesTest.ConvertsStringsAndEnums
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TypesTest
+[ RUN      ] TypesTest.ConvertsStringsAndEnums
+[       OK ] TypesTest.ConvertsStringsAndEnums (0 ms)
+[----------] 1 test from TypesTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"TypesTest.ConvertsStringsAndEnums" end time: May 13 22:25 RTZ 2 (çèìà)
+"TypesTest.ConvertsStringsAndEnums" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/30 Testing: TypesTest.ConvertsTimeRoundTripAndIso8601
+2/30 Test: TypesTest.ConvertsTimeRoundTripAndIso8601
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=TypesTest.ConvertsTimeRoundTripAndIso8601"
+Directory: C:/Users/user/Desktop/proxy server/build
+"TypesTest.ConvertsTimeRoundTripAndIso8601" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = TypesTest.ConvertsTimeRoundTripAndIso8601
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TypesTest
+[ RUN      ] TypesTest.ConvertsTimeRoundTripAndIso8601
+[       OK ] TypesTest.ConvertsTimeRoundTripAndIso8601 (0 ms)
+[----------] 1 test from TypesTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"TypesTest.ConvertsTimeRoundTripAndIso8601" end time: May 13 22:25 RTZ 2 (çèìà)
+"TypesTest.ConvertsTimeRoundTripAndIso8601" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/30 Testing: AdminUserTest.StoresConstructorValuesAndDefaults
+3/30 Test: AdminUserTest.StoresConstructorValuesAndDefaults
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=AdminUserTest.StoresConstructorValuesAndDefaults"
+Directory: C:/Users/user/Desktop/proxy server/build
+"AdminUserTest.StoresConstructorValuesAndDefaults" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = AdminUserTest.StoresConstructorValuesAndDefaults
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminUserTest
+[ RUN      ] AdminUserTest.StoresConstructorValuesAndDefaults
+[       OK ] AdminUserTest.StoresConstructorValuesAndDefaults (0 ms)
+[----------] 1 test from AdminUserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"AdminUserTest.StoresConstructorValuesAndDefaults" end time: May 13 22:25 RTZ 2 (çèìà)
+"AdminUserTest.StoresConstructorValuesAndDefaults" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/30 Testing: AdminUserTest.CanLoginRequiresActiveAdminWithLogin
+4/30 Test: AdminUserTest.CanLoginRequiresActiveAdminWithLogin
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=AdminUserTest.CanLoginRequiresActiveAdminWithLogin"
+Directory: C:/Users/user/Desktop/proxy server/build
+"AdminUserTest.CanLoginRequiresActiveAdminWithLogin" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = AdminUserTest.CanLoginRequiresActiveAdminWithLogin
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminUserTest
+[ RUN      ] AdminUserTest.CanLoginRequiresActiveAdminWithLogin
+[       OK ] AdminUserTest.CanLoginRequiresActiveAdminWithLogin (0 ms)
+[----------] 1 test from AdminUserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.13 sec
+----------------------------------------------------------
+Test Passed.
+"AdminUserTest.CanLoginRequiresActiveAdminWithLogin" end time: May 13 22:25 RTZ 2 (çèìà)
+"AdminUserTest.CanLoginRequiresActiveAdminWithLogin" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/30 Testing: AdminUserTest.SettersUpdateAllMutableFields
+5/30 Test: AdminUserTest.SettersUpdateAllMutableFields
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=AdminUserTest.SettersUpdateAllMutableFields"
+Directory: C:/Users/user/Desktop/proxy server/build
+"AdminUserTest.SettersUpdateAllMutableFields" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = AdminUserTest.SettersUpdateAllMutableFields
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AdminUserTest
+[ RUN      ] AdminUserTest.SettersUpdateAllMutableFields
+[       OK ] AdminUserTest.SettersUpdateAllMutableFields (0 ms)
+[----------] 1 test from AdminUserTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"AdminUserTest.SettersUpdateAllMutableFields" end time: May 13 22:25 RTZ 2 (çèìà)
+"AdminUserTest.SettersUpdateAllMutableFields" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/30 Testing: WhitelistRuleTest.MatchesExactPrefixContainsRegexCaseInsensitive
+6/30 Test: WhitelistRuleTest.MatchesExactPrefixContainsRegexCaseInsensitive
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=WhitelistRuleTest.MatchesExactPrefixContainsRegexCaseInsensitive"
+Directory: C:/Users/user/Desktop/proxy server/build
+"WhitelistRuleTest.MatchesExactPrefixContainsRegexCaseInsensitive" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = WhitelistRuleTest.MatchesExactPrefixContainsRegexCaseInsensitive
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WhitelistRuleTest
+[ RUN      ] WhitelistRuleTest.MatchesExactPrefixContainsRegexCaseInsensitive
+[       OK ] WhitelistRuleTest.MatchesExactPrefixContainsRegexCaseInsensitive (0 ms)
+[----------] 1 test from WhitelistRuleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"WhitelistRuleTest.MatchesExactPrefixContainsRegexCaseInsensitive" end time: May 13 22:25 RTZ 2 (çèìà)
+"WhitelistRuleTest.MatchesExactPrefixContainsRegexCaseInsensitive" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/30 Testing: WhitelistRuleTest.RejectsDisabledEmptyAndInvalidRegexRules
+7/30 Test: WhitelistRuleTest.RejectsDisabledEmptyAndInvalidRegexRules
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=WhitelistRuleTest.RejectsDisabledEmptyAndInvalidRegexRules"
+Directory: C:/Users/user/Desktop/proxy server/build
+"WhitelistRuleTest.RejectsDisabledEmptyAndInvalidRegexRules" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = WhitelistRuleTest.RejectsDisabledEmptyAndInvalidRegexRules
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WhitelistRuleTest
+[ RUN      ] WhitelistRuleTest.RejectsDisabledEmptyAndInvalidRegexRules
+[       OK ] WhitelistRuleTest.RejectsDisabledEmptyAndInvalidRegexRules (1 ms)
+[----------] 1 test from WhitelistRuleTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"WhitelistRuleTest.RejectsDisabledEmptyAndInvalidRegexRules" end time: May 13 22:25 RTZ 2 (çèìà)
+"WhitelistRuleTest.RejectsDisabledEmptyAndInvalidRegexRules" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/30 Testing: WhitelistRuleTest.SettersUpdateMetadata
+8/30 Test: WhitelistRuleTest.SettersUpdateMetadata
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=WhitelistRuleTest.SettersUpdateMetadata"
+Directory: C:/Users/user/Desktop/proxy server/build
+"WhitelistRuleTest.SettersUpdateMetadata" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = WhitelistRuleTest.SettersUpdateMetadata
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from WhitelistRuleTest
+[ RUN      ] WhitelistRuleTest.SettersUpdateMetadata
+[       OK ] WhitelistRuleTest.SettersUpdateMetadata (0 ms)
+[----------] 1 test from WhitelistRuleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"WhitelistRuleTest.SettersUpdateMetadata" end time: May 13 22:25 RTZ 2 (çèìà)
+"WhitelistRuleTest.SettersUpdateMetadata" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/30 Testing: CacheEntryTest.ConstructorSetsResponseAndExpirationData
+9/30 Test: CacheEntryTest.ConstructorSetsResponseAndExpirationData
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=CacheEntryTest.ConstructorSetsResponseAndExpirationData"
+Directory: C:/Users/user/Desktop/proxy server/build
+"CacheEntryTest.ConstructorSetsResponseAndExpirationData" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = CacheEntryTest.ConstructorSetsResponseAndExpirationData
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CacheEntryTest
+[ RUN      ] CacheEntryTest.ConstructorSetsResponseAndExpirationData
+[       OK ] CacheEntryTest.ConstructorSetsResponseAndExpirationData (0 ms)
+[----------] 1 test from CacheEntryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"CacheEntryTest.ConstructorSetsResponseAndExpirationData" end time: May 13 22:25 RTZ 2 (çèìà)
+"CacheEntryTest.ConstructorSetsResponseAndExpirationData" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/30 Testing: CacheEntryTest.TouchUpdatesAccessTimeAndHitCount
+10/30 Test: CacheEntryTest.TouchUpdatesAccessTimeAndHitCount
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=CacheEntryTest.TouchUpdatesAccessTimeAndHitCount"
+Directory: C:/Users/user/Desktop/proxy server/build
+"CacheEntryTest.TouchUpdatesAccessTimeAndHitCount" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = CacheEntryTest.TouchUpdatesAccessTimeAndHitCount
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CacheEntryTest
+[ RUN      ] CacheEntryTest.TouchUpdatesAccessTimeAndHitCount
+[       OK ] CacheEntryTest.TouchUpdatesAccessTimeAndHitCount (0 ms)
+[----------] 1 test from CacheEntryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"CacheEntryTest.TouchUpdatesAccessTimeAndHitCount" end time: May 13 22:25 RTZ 2 (çèìà)
+"CacheEntryTest.TouchUpdatesAccessTimeAndHitCount" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/30 Testing: CacheEntryTest.SettersAndExpirationChecksWork
+11/30 Test: CacheEntryTest.SettersAndExpirationChecksWork
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=CacheEntryTest.SettersAndExpirationChecksWork"
+Directory: C:/Users/user/Desktop/proxy server/build
+"CacheEntryTest.SettersAndExpirationChecksWork" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = CacheEntryTest.SettersAndExpirationChecksWork
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CacheEntryTest
+[ RUN      ] CacheEntryTest.SettersAndExpirationChecksWork
+[       OK ] CacheEntryTest.SettersAndExpirationChecksWork (0 ms)
+[----------] 1 test from CacheEntryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"CacheEntryTest.SettersAndExpirationChecksWork" end time: May 13 22:25 RTZ 2 (çèìà)
+"CacheEntryTest.SettersAndExpirationChecksWork" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/30 Testing: RequestRecordTest.DefaultsAndSettersWork
+12/30 Test: RequestRecordTest.DefaultsAndSettersWork
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=RequestRecordTest.DefaultsAndSettersWork"
+Directory: C:/Users/user/Desktop/proxy server/build
+"RequestRecordTest.DefaultsAndSettersWork" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = RequestRecordTest.DefaultsAndSettersWork
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RequestRecordTest
+[ RUN      ] RequestRecordTest.DefaultsAndSettersWork
+[       OK ] RequestRecordTest.DefaultsAndSettersWork (0 ms)
+[----------] 1 test from RequestRecordTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"RequestRecordTest.DefaultsAndSettersWork" end time: May 13 22:25 RTZ 2 (çèìà)
+"RequestRecordTest.DefaultsAndSettersWork" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/30 Testing: AppLoggerTest.FiltersByLevelAndWritesToFile
+13/30 Test: AppLoggerTest.FiltersByLevelAndWritesToFile
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=AppLoggerTest.FiltersByLevelAndWritesToFile"
+Directory: C:/Users/user/Desktop/proxy server/build
+"AppLoggerTest.FiltersByLevelAndWritesToFile" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = AppLoggerTest.FiltersByLevelAndWritesToFile
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from AppLoggerTest
+[ RUN      ] AppLoggerTest.FiltersByLevelAndWritesToFile
+[       OK ] AppLoggerTest.FiltersByLevelAndWritesToFile (11 ms)
+[----------] 1 test from AppLoggerTest (11 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (11 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"AppLoggerTest.FiltersByLevelAndWritesToFile" end time: May 13 22:25 RTZ 2 (çèìà)
+"AppLoggerTest.FiltersByLevelAndWritesToFile" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/30 Testing: RedisServiceIntegrationTest.SupportsBasicKeyOperations
+14/30 Test: RedisServiceIntegrationTest.SupportsBasicKeyOperations
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=RedisServiceIntegrationTest.SupportsBasicKeyOperations"
+Directory: C:/Users/user/Desktop/proxy server/build
+"RedisServiceIntegrationTest.SupportsBasicKeyOperations" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = RedisServiceIntegrationTest.SupportsBasicKeyOperations
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RedisServiceIntegrationTest
+[ RUN      ] RedisServiceIntegrationTest.SupportsBasicKeyOperations
+unknown file: error: C++ exception with description "failed to connect to Redis (127.0.0.1:6379): connection refused, err: 1, errno: 107" thrown in the test body.
+
+[  FAILED  ] RedisServiceIntegrationTest.SupportsBasicKeyOperations (2061 ms)
+[----------] 1 test from RedisServiceIntegrationTest (2061 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2061 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] RedisServiceIntegrationTest.SupportsBasicKeyOperations
+
+ 1 FAILED TEST
+<end of output>
+Test time =   2.19 sec
+----------------------------------------------------------
+Test Failed.
+"RedisServiceIntegrationTest.SupportsBasicKeyOperations" end time: May 13 22:25 RTZ 2 (çèìà)
+"RedisServiceIntegrationTest.SupportsBasicKeyOperations" time elapsed: 00:00:02
+----------------------------------------------------------
+
+15/30 Testing: RedisServiceIntegrationTest.ExpiresKeysByTtl
+15/30 Test: RedisServiceIntegrationTest.ExpiresKeysByTtl
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=RedisServiceIntegrationTest.ExpiresKeysByTtl"
+Directory: C:/Users/user/Desktop/proxy server/build
+"RedisServiceIntegrationTest.ExpiresKeysByTtl" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = RedisServiceIntegrationTest.ExpiresKeysByTtl
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from RedisServiceIntegrationTest
+[ RUN      ] RedisServiceIntegrationTest.ExpiresKeysByTtl
+unknown file: error: C++ exception with description "failed to connect to Redis (127.0.0.1:6379): connection refused, err: 1, errno: 107" thrown in the test body.
+
+[  FAILED  ] RedisServiceIntegrationTest.ExpiresKeysByTtl (2047 ms)
+[----------] 1 test from RedisServiceIntegrationTest (2047 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2047 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] RedisServiceIntegrationTest.ExpiresKeysByTtl
+
+ 1 FAILED TEST
+<end of output>
+Test time =   2.08 sec
+----------------------------------------------------------
+Test Failed.
+"RedisServiceIntegrationTest.ExpiresKeysByTtl" end time: May 13 22:25 RTZ 2 (çèìà)
+"RedisServiceIntegrationTest.ExpiresKeysByTtl" time elapsed: 00:00:02
+----------------------------------------------------------
+
+16/30 Testing: DBServiceIntegrationTest.PersistsWhitelistRules
+16/30 Test: DBServiceIntegrationTest.PersistsWhitelistRules
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=DBServiceIntegrationTest.PersistsWhitelistRules"
+Directory: C:/Users/user/Desktop/proxy server/build
+"DBServiceIntegrationTest.PersistsWhitelistRules" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = DBServiceIntegrationTest.PersistsWhitelistRules
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DBServiceIntegrationTest
+[ RUN      ] DBServiceIntegrationTest.PersistsWhitelistRules
+unknown file: error: C++ exception with description "connection to server at "127.0.0.1", port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+" thrown in the test body.
+
+[  FAILED  ] DBServiceIntegrationTest.PersistsWhitelistRules (2040 ms)
+[----------] 1 test from DBServiceIntegrationTest (2040 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2041 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] DBServiceIntegrationTest.PersistsWhitelistRules
+
+ 1 FAILED TEST
+<end of output>
+Test time =   2.07 sec
+----------------------------------------------------------
+Test Failed.
+"DBServiceIntegrationTest.PersistsWhitelistRules" end time: May 13 22:25 RTZ 2 (çèìà)
+"DBServiceIntegrationTest.PersistsWhitelistRules" time elapsed: 00:00:02
+----------------------------------------------------------
+
+17/30 Testing: DBServiceIntegrationTest.PersistsRequestsAndAdminUsers
+17/30 Test: DBServiceIntegrationTest.PersistsRequestsAndAdminUsers
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=DBServiceIntegrationTest.PersistsRequestsAndAdminUsers"
+Directory: C:/Users/user/Desktop/proxy server/build
+"DBServiceIntegrationTest.PersistsRequestsAndAdminUsers" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = DBServiceIntegrationTest.PersistsRequestsAndAdminUsers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from DBServiceIntegrationTest
+[ RUN      ] DBServiceIntegrationTest.PersistsRequestsAndAdminUsers
+unknown file: error: C++ exception with description "connection to server at "127.0.0.1", port 5433 failed: Connection refused (0x0000274D/10061)
+	Is the server running on that host and accepting TCP/IP connections?
+" thrown in the test body.
+
+[  FAILED  ] DBServiceIntegrationTest.PersistsRequestsAndAdminUsers (2035 ms)
+[----------] 1 test from DBServiceIntegrationTest (2035 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2036 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] DBServiceIntegrationTest.PersistsRequestsAndAdminUsers
+
+ 1 FAILED TEST
+<end of output>
+Test time =   2.07 sec
+----------------------------------------------------------
+Test Failed.
+"DBServiceIntegrationTest.PersistsRequestsAndAdminUsers" end time: May 13 22:25 RTZ 2 (çèìà)
+"DBServiceIntegrationTest.PersistsRequestsAndAdminUsers" time elapsed: 00:00:02
+----------------------------------------------------------
+
+18/30 Testing: CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries
+18/30 Test: CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries
+Command: "C:/Users/user/Desktop/proxy server/build/Debug/proxy_unit_tests.exe" "--gtest_filter=CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries"
+Directory: C:/Users/user/Desktop/proxy server/build
+"CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries" start time: May 13 22:25 RTZ 2 (çèìà)
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\user\vcpkg\buildtrees\gtest\src\v1.17.0-0c449efaff.clean\googletest\src\gtest_main.cc
+Note: Google Test filter = CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CacheServiceIntegrationTest
+[ RUN      ] CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries
+unknown file: error: C++ exception with description "failed to connect to Redis (127.0.0.1:6379): connection refused, err: 1, errno: 107" thrown in the test body.
+
+[  FAILED  ] CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries (2047 ms)
+[----------] 1 test from CacheServiceIntegrationTest (2047 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2047 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries
+
+ 1 FAILED TEST
+<end of output>
+Test time =   2.08 sec
+----------------------------------------------------------
+Test Failed.
+"CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries" end time: May 13 22:25 RTZ 2 (çèìà)
+"CacheServiceIntegrationTest.PutsGetsTouchesAndRemovesEntries" time elapsed: 00:00:02
+----------------------------------------------------------
+

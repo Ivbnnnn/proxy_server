@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/user/Desktop/proxy server/build/proxy_unit_tests[1]_tests.cmake")
+  include("C:/Users/user/Desktop/proxy server/build/proxy_unit_tests[1]_tests.cmake")
+else()
+  add_test(proxy_unit_tests_NOT_BUILT proxy_unit_tests_NOT_BUILT)
+endif()

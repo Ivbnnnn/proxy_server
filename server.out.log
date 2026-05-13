@@ -1,0 +1,106 @@
+[2026-05-07T13:08:21Z][http-proxy][INFO] Starting proxy with DB=host=127.0.0.1 port=5433 dbname=proxy_db user=postgres password=postgres, Redis=127.0.0.1:6379
+[2026-05-07T13:08:21Z][http-proxy][INFO] DBService connected to PostgreSQL. poolSize=8
+[2026-05-07T13:08:21Z][http-proxy][INFO] RedisService connected to Redis: 127.0.0.1:6379
+[2026-05-07T13:08:21Z][http-proxy][INFO] RedisService initialized at 127.0.0.1:6379
+[2026-05-07T13:08:21Z][http-proxy][INFO] Whitelist rules reloaded: 4
+[2026-05-07T13:08:21Z][http-proxy][INFO] Whitelist rules reloaded: 4
+[2026-05-07T13:11:47Z][http-proxy][INFO] HTTP GET /admin/stats
+[2026-05-07T13:11:47Z][http-proxy][INFO] HTTP GET /admin/cache/stats
+[2026-05-07T13:11:47Z][http-proxy][INFO] HTTP GET /admin/cache/stats entries=0, bytes=0, overflowEvents=0
+[2026-05-07T13:11:47Z][http-proxy][INFO] HTTP GET /admin/whitelist
+[2026-05-07T13:11:47Z][http-proxy][INFO] HTTP GET /admin/requests
+[2026-05-07T13:11:47Z][http-proxy][INFO] HTTP GET /admin/cache/stats
+[2026-05-07T13:11:47Z][http-proxy][INFO] HTTP GET /admin/cache/stats entries=0, bytes=0, overflowEvents=0
+[2026-05-07T13:11:47Z][http-proxy][INFO] HTTP GET /admin/requests returned 31 rows
+[2026-05-07T13:11:47Z][http-proxy][INFO] HTTP GET /admin/stats totalRequests=31
+[2026-05-07T13:11:47Z][http-proxy][INFO] HTTP GET /admin/whitelist
+[2026-05-07T13:11:47Z][http-proxy][INFO] HTTP GET /admin/stats
+[2026-05-07T13:11:47Z][http-proxy][INFO] HTTP GET /admin/requests
+[2026-05-07T13:11:47Z][http-proxy][INFO] HTTP GET /admin/requests returned 31 rows
+[2026-05-07T13:11:47Z][http-proxy][INFO] HTTP GET /admin/stats totalRequests=31
+[2026-05-07T13:11:51Z][http-proxy][INFO] HTTP PUT /admin/whitelist
+[2026-05-07T13:11:51Z][http-proxy][INFO] Whitelist rule updated
+[2026-05-07T13:11:51Z][http-proxy][INFO] Whitelist rules reloaded: 4
+[2026-05-07T13:11:51Z][http-proxy][INFO] HTTP PUT /admin/whitelist updated rule id=3
+[2026-05-07T13:11:51Z][http-proxy][INFO] HTTP GET /admin/whitelist
+[2026-05-07T13:11:51Z][http-proxy][INFO] HTTP GET /admin/stats
+[2026-05-07T13:11:51Z][http-proxy][INFO] HTTP GET /admin/cache/stats
+[2026-05-07T13:11:51Z][http-proxy][INFO] HTTP GET /admin/requests
+[2026-05-07T13:11:51Z][http-proxy][INFO] HTTP GET /admin/cache/stats entries=0, bytes=0, overflowEvents=0
+[2026-05-07T13:11:51Z][http-proxy][INFO] HTTP GET /admin/requests returned 31 rows
+[2026-05-07T13:11:51Z][http-proxy][INFO] HTTP GET /admin/stats totalRequests=31
+[2026-05-07T13:11:54Z][http-proxy][INFO] HTTP PATCH /admin/cache/settings
+[2026-05-07T13:11:54Z][http-proxy][INFO] HTTP PATCH /admin/cache/settings updated
+[2026-05-07T13:11:54Z][http-proxy][INFO] HTTP GET /admin/stats
+[2026-05-07T13:11:54Z][http-proxy][INFO] HTTP GET /admin/cache/stats
+[2026-05-07T13:11:54Z][http-proxy][INFO] HTTP GET /admin/whitelist
+[2026-05-07T13:11:54Z][http-proxy][INFO] HTTP GET /admin/requests
+[2026-05-07T13:11:54Z][http-proxy][INFO] HTTP GET /admin/cache/stats entries=0, bytes=0, overflowEvents=0
+[2026-05-07T13:11:54Z][http-proxy][INFO] HTTP GET /admin/requests returned 31 rows
+[2026-05-07T13:11:54Z][http-proxy][INFO] HTTP GET /admin/stats totalRequests=31
+[2026-05-07T13:11:56Z][http-proxy][INFO] HTTP PATCH /admin/cache/settings
+[2026-05-07T13:11:56Z][http-proxy][INFO] HTTP PATCH /admin/cache/settings updated
+[2026-05-07T13:11:56Z][http-proxy][INFO] HTTP GET /admin/stats
+[2026-05-07T13:11:56Z][http-proxy][INFO] HTTP GET /admin/cache/stats
+[2026-05-07T13:11:56Z][http-proxy][INFO] HTTP GET /admin/whitelist
+[2026-05-07T13:11:56Z][http-proxy][INFO] HTTP GET /admin/requests
+[2026-05-07T13:11:56Z][http-proxy][INFO] HTTP GET /admin/cache/stats entries=0, bytes=0, overflowEvents=0
+[2026-05-07T13:11:56Z][http-proxy][INFO] HTTP GET /admin/requests returned 31 rows
+[2026-05-07T13:11:56Z][http-proxy][INFO] HTTP GET /admin/stats totalRequests=31
+[2026-05-07T13:12:01Z][http-proxy][INFO] HTTP PATCH /admin/cache/settings
+[2026-05-07T13:12:01Z][http-proxy][INFO] HTTP PATCH /admin/cache/settings updated
+[2026-05-07T13:12:01Z][http-proxy][INFO] HTTP GET /admin/stats
+[2026-05-07T13:12:01Z][http-proxy][INFO] HTTP GET /admin/cache/stats
+[2026-05-07T13:12:01Z][http-proxy][INFO] HTTP GET /admin/whitelist
+[2026-05-07T13:12:01Z][http-proxy][INFO] HTTP GET /admin/requests
+[2026-05-07T13:12:01Z][http-proxy][INFO] HTTP GET /admin/cache/stats entries=0, bytes=0, overflowEvents=0
+[2026-05-07T13:12:01Z][http-proxy][INFO] HTTP GET /admin/requests returned 31 rows
+[2026-05-07T13:12:01Z][http-proxy][INFO] HTTP GET /admin/stats totalRequests=31
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/cache/stats
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/stats
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/whitelist
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/cache/stats entries=0, bytes=0, overflowEvents=0
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/requests
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/cache/stats
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/whitelist
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/cache/stats entries=0, bytes=0, overflowEvents=0
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/requests returned 31 rows
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/requests
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/stats totalRequests=31
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/stats
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/requests returned 31 rows
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/stats totalRequests=31
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/cache/stats
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/stats
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/whitelist
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/requests
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/cache/stats entries=0, bytes=0, overflowEvents=0
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/cache/stats
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/cache/stats entries=0, bytes=0, overflowEvents=0
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/whitelist
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/requests returned 31 rows
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/requests
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/stats totalRequests=31
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/stats
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/requests returned 31 rows
+[2026-05-07T13:12:05Z][http-proxy][INFO] HTTP GET /admin/stats totalRequests=31
+[2026-05-07T13:12:26Z][http-proxy][INFO] HTTP PATCH /admin/cache/settings
+[2026-05-07T13:12:26Z][http-proxy][INFO] HTTP PATCH /admin/cache/settings updated
+[2026-05-07T13:12:26Z][http-proxy][INFO] HTTP GET /admin/cache/stats
+[2026-05-07T13:12:26Z][http-proxy][INFO] HTTP GET /admin/stats
+[2026-05-07T13:12:26Z][http-proxy][INFO] HTTP GET /admin/whitelist
+[2026-05-07T13:12:26Z][http-proxy][INFO] HTTP GET /admin/requests
+[2026-05-07T13:12:26Z][http-proxy][INFO] HTTP GET /admin/cache/stats entries=0, bytes=0, overflowEvents=0
+[2026-05-07T13:12:26Z][http-proxy][INFO] HTTP GET /admin/requests returned 31 rows
+[2026-05-07T13:12:26Z][http-proxy][INFO] HTTP GET /admin/stats totalRequests=31
+[2026-05-07T13:12:33Z][http-proxy][INFO] HTTP GET /admin/cache/stats
+[2026-05-07T13:12:34Z][http-proxy][INFO] HTTP GET /admin/cache/stats entries=0, bytes=0, overflowEvents=0
+[2026-05-07T13:12:44Z][http-proxy][INFO] HTTP PATCH /admin/cache/settings
+[2026-05-07T13:12:44Z][http-proxy][INFO] HTTP PATCH /admin/cache/settings updated
+[2026-05-07T13:12:47Z][http-proxy][INFO] HTTP GET /admin/cache/stats
+[2026-05-07T13:12:47Z][http-proxy][INFO] HTTP GET /admin/cache/stats entries=0, bytes=0, overflowEvents=0
+[2026-05-07T13:14:14Z][http-proxy][INFO] HTTP GET /admin/stats
+[2026-05-07T13:14:14Z][http-proxy][INFO] HTTP GET /admin/cache/stats
+[2026-05-07T13:14:14Z][http-proxy][INFO] HTTP GET /admin/whitelist
+[2026-05-07T13:14:14Z][http-proxy][INFO] HTTP GET /admin/requests
+[2026-05-07T13:14:14Z][http-proxy][INFO] HTTP GET /admin/cache/stats entries=0, b

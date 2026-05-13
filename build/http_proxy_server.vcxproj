@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F4CA853E-F880-3E9A-8B7B-191A4B6F6435}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>http_proxy_server</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v145</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\user\Desktop\proxy server\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">http_proxy_server.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">http_proxy_server</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\user\Desktop\proxy server\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">http_proxy_server.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">http_proxy_server</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\user\Desktop\proxy server\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">http_proxy_server.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">http_proxy_server</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\user\Desktop\proxy server\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">http_proxy_server.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">http_proxy_server</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\proxy server\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/user/vcpkg/installed/x64-windows/include" /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;PQXX_SHARED;SPDLOG_SHARED_LIB;SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;FMT_SHARED;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;PQXX_SHARED;SPDLOG_SHARED_LIB;SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;FMT_SHARED;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\proxy server\include;C:\Users\user\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\proxy server\include;C:\Users\user\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/user/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary "C:/Users/user/Desktop/proxy server/build/Debug/http_proxy_server.exe" -installedDir C:/Users/user/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>Debug\proxy_core.lib;C:\Users\user\vcpkg\installed\x64-windows\debug\lib\drogon.lib;rpcrt4.lib;C:\Users\user\vcpkg\installed\x64-windows\debug\lib\trantor.lib;advapi32.lib;C:\Users\user\vcpkg\installed\x64-windows\debug\lib\jsoncpp.lib;C:\Users\user\vcpkg\installed\x64-windows\debug\lib\redis++.lib;C:\Users\user\vcpkg\installed\x64-windows\debug\lib\hiredisd.lib;crypt32.lib;C:\Users\user\vcpkg\installed\x64-windows\debug\lib\pqxx.lib;wsock32.lib;ws2_32.lib;C:\Users\user\vcpkg\installed\x64-windows\debug\lib\spdlogd.lib;C:\Users\user\vcpkg\installed\x64-windows\debug\lib\fmtd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/user/Desktop/proxy server/build/Debug/http_proxy_server.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/user/Desktop/proxy server/build/Debug/http_proxy_server.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\proxy server\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/user/vcpkg/installed/x64-windows/include" /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DisableSpecificWarnings>4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PQXX_SHARED;SPDLOG_SHARED_LIB;SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;FMT_SHARED;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PQXX_SHARED;SPDLOG_SHARED_LIB;SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;FMT_SHARED;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\proxy server\include;C:\Users\user\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\proxy server\include;C:\Users\user\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/user/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary "C:/Users/user/Desktop/proxy server/build/Release/http_proxy_server.exe" -installedDir C:/Users/user/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>Release\proxy_core.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\drogon.lib;rpcrt4.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\trantor.lib;advapi32.lib;C:\Users\user\vcpkg\installed\x64-windows\debug\lib\jsoncpp.lib;C:\Users\user\vcpkg\installed\x64-windows\debug\lib\redis++.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\hiredis.lib;crypt32.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\pqxx.lib;wsock32.lib;ws2_32.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\spdlog.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/user/Desktop/proxy server/build/Release/http_proxy_server.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/user/Desktop/proxy server/build/Release/http_proxy_server.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\proxy server\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/user/vcpkg/installed/x64-windows/include" /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DisableSpecificWarnings>4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PQXX_SHARED;SPDLOG_SHARED_LIB;SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;FMT_SHARED;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PQXX_SHARED;SPDLOG_SHARED_LIB;SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;FMT_SHARED;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\proxy server\include;C:\Users\user\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\proxy server\include;C:\Users\user\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/user/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary "C:/Users/user/Desktop/proxy server/build/MinSizeRel/http_proxy_server.exe" -installedDir C:/Users/user/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>MinSizeRel\proxy_core.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\drogon.lib;rpcrt4.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\trantor.lib;advapi32.lib;C:\Users\user\vcpkg\installed\x64-windows\debug\lib\jsoncpp.lib;C:\Users\user\vcpkg\installed\x64-windows\debug\lib\redis++.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\hiredis.lib;crypt32.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\pqxx.lib;wsock32.lib;ws2_32.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\spdlog.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/user/Desktop/proxy server/build/MinSizeRel/http_proxy_server.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/user/Desktop/proxy server/build/MinSizeRel/http_proxy_server.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\proxy server\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "C:/Users/user/vcpkg/installed/x64-windows/include" /utf-8</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <BufferSecurityCheck></BufferSecurityCheck>
+      <CallingConvention></CallingConvention>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251;4275</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <FloatingPointModel></FloatingPointModel>
+      <ForceConformanceInForLoopScope></ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RemoveUnreferencedCodeData></RemoveUnreferencedCodeData>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <TreatWChar_tAsBuiltInType></TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PQXX_SHARED;SPDLOG_SHARED_LIB;SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;FMT_SHARED;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;PQXX_SHARED;SPDLOG_SHARED_LIB;SPDLOG_COMPILED_LIB;SPDLOG_FMT_EXTERNAL;FMT_SHARED;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\proxy server\include;C:\Users\user\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\user\Desktop\proxy server\include;C:\Users\user\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/user/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary "C:/Users/user/Desktop/proxy server/build/RelWithDebInfo/http_proxy_server.exe" -installedDir C:/Users/user/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>RelWithDebInfo\proxy_core.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\drogon.lib;rpcrt4.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\trantor.lib;advapi32.lib;C:\Users\user\vcpkg\installed\x64-windows\debug\lib\jsoncpp.lib;C:\Users\user\vcpkg\installed\x64-windows\debug\lib\redis++.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\hiredis.lib;crypt32.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\pqxx.lib;wsock32.lib;ws2_32.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\spdlog.lib;C:\Users\user\vcpkg\installed\x64-windows\lib\fmt.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention></DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImageHasSafeExceptionHandlers></ImageHasSafeExceptionHandlers>
+      <ImportLibrary>C:/Users/user/Desktop/proxy server/build/RelWithDebInfo/http_proxy_server.lib</ImportLibrary>
+      <LinkErrorReporting></LinkErrorReporting>
+      <ProgramDataBaseFile>C:/Users/user/Desktop/proxy server/build/RelWithDebInfo/http_proxy_server.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress></RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\user\Desktop\proxy server\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/user/Desktop/proxy server/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/user/Desktop/proxy server" "-BC:/Users/user/Desktop/proxy server/build" --check-stamp-file "C:/Users/user/Desktop/proxy server/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-4.3\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPostgreSQL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\GoogleTest.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-4.3\Templates\CTestScript.cmake.in;C:\Users\user\Desktop\proxy server\build\CMakeFiles\4.3.1\CMakeCXXCompiler.cmake;C:\Users\user\Desktop\proxy server\build\CMakeFiles\4.3.1\CMakeRCCompiler.cmake;C:\Users\user\Desktop\proxy server\build\CMakeFiles\4.3.1\CMakeSystem.cmake;C:\Users\user\Desktop\proxy server\tests\support\TestSupport.cpp;C:\Users\user\Desktop\proxy server\tests\unit\proxy_unit_tests.cpp;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-config-version.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-config.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-targets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-targets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-targets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonConfig.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonConfigVersion.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonTargets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonTargets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonTargets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonUtilities.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\FindBrotli.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\FindFilesystem.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\FindJsoncpp.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\ParseAndAddDrogonTests.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-config-version.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-config.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-targets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-targets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-targets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestConfig.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestConfigVersion.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestTargets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestTargets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestTargets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-config-version.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-config.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-targets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-targets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-targets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-config-version.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-config.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-targets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-targets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-targets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\openssl\vcpkg-cmake-wrapper.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\postgresql\vcpkg-cmake-wrapper.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfig.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfigTargets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfigTargets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfigTargets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfigVersion.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorConfig.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorConfigVersion.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorTargets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorTargets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorTargets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;C:\Users\user\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\user\Desktop\proxy server\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/user/Desktop/proxy server/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/user/Desktop/proxy server" "-BC:/Users/user/Desktop/proxy server/build" --check-stamp-file "C:/Users/user/Desktop/proxy server/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-4.3\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPostgreSQL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\GoogleTest.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-4.3\Templates\CTestScript.cmake.in;C:\Users\user\Desktop\proxy server\build\CMakeFiles\4.3.1\CMakeCXXCompiler.cmake;C:\Users\user\Desktop\proxy server\build\CMakeFiles\4.3.1\CMakeRCCompiler.cmake;C:\Users\user\Desktop\proxy server\build\CMakeFiles\4.3.1\CMakeSystem.cmake;C:\Users\user\Desktop\proxy server\tests\support\TestSupport.cpp;C:\Users\user\Desktop\proxy server\tests\unit\proxy_unit_tests.cpp;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-config-version.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-config.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-targets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-targets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-targets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonConfig.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonConfigVersion.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonTargets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonTargets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonTargets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonUtilities.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\FindBrotli.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\FindFilesystem.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\FindJsoncpp.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\ParseAndAddDrogonTests.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-config-version.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-config.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-targets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-targets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-targets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestConfig.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestConfigVersion.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestTargets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestTargets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestTargets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-config-version.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-config.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-targets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-targets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-targets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-config-version.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-config.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-targets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-targets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-targets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\openssl\vcpkg-cmake-wrapper.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\postgresql\vcpkg-cmake-wrapper.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfig.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfigTargets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfigTargets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfigTargets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfigVersion.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorConfig.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorConfigVersion.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorTargets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorTargets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorTargets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;C:\Users\user\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\user\Desktop\proxy server\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/user/Desktop/proxy server/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/user/Desktop/proxy server" "-BC:/Users/user/Desktop/proxy server/build" --check-stamp-file "C:/Users/user/Desktop/proxy server/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-4.3\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPostgreSQL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\GoogleTest.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-4.3\Templates\CTestScript.cmake.in;C:\Users\user\Desktop\proxy server\build\CMakeFiles\4.3.1\CMakeCXXCompiler.cmake;C:\Users\user\Desktop\proxy server\build\CMakeFiles\4.3.1\CMakeRCCompiler.cmake;C:\Users\user\Desktop\proxy server\build\CMakeFiles\4.3.1\CMakeSystem.cmake;C:\Users\user\Desktop\proxy server\tests\support\TestSupport.cpp;C:\Users\user\Desktop\proxy server\tests\unit\proxy_unit_tests.cpp;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-config-version.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-config.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-targets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-targets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-targets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonConfig.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonConfigVersion.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonTargets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonTargets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonTargets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonUtilities.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\FindBrotli.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\FindFilesystem.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\FindJsoncpp.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\ParseAndAddDrogonTests.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-config-version.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-config.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-targets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-targets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-targets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestConfig.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestConfigVersion.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestTargets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestTargets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestTargets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-config-version.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-config.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-targets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-targets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-targets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-config-version.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-config.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-targets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-targets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-targets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\openssl\vcpkg-cmake-wrapper.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\postgresql\vcpkg-cmake-wrapper.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfig.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfigTargets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfigTargets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfigTargets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfigVersion.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorConfig.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorConfigVersion.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorTargets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorTargets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorTargets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;C:\Users\user\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\user\Desktop\proxy server\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/user/Desktop/proxy server/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/user/Desktop/proxy server" "-BC:/Users/user/Desktop/proxy server/build" --check-stamp-file "C:/Users/user/Desktop/proxy server/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakePushCheckState.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CTest.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CTestTargets.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CTestUseLaunchers.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckCXXSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\DartConfiguration.tcl.in;C:\Program Files\CMake\share\cmake-4.3\Modules\FindOpenSSL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindPostgreSQL.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\FindZLIB.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\GoogleTest.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCXXLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CMakeCommonLinkerInformation.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Internal\CheckSourceRuns.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Linker\MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Linker\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-4.3\Modules\SelectLibraryConfigurations.cmake;C:\Program Files\CMake\share\cmake-4.3\Templates\CTestScript.cmake.in;C:\Users\user\Desktop\proxy server\build\CMakeFiles\4.3.1\CMakeCXXCompiler.cmake;C:\Users\user\Desktop\proxy server\build\CMakeFiles\4.3.1\CMakeRCCompiler.cmake;C:\Users\user\Desktop\proxy server\build\CMakeFiles\4.3.1\CMakeSystem.cmake;C:\Users\user\Desktop\proxy server\tests\support\TestSupport.cpp;C:\Users\user\Desktop\proxy server\tests\unit\proxy_unit_tests.cpp;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-config-version.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-config.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-targets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-targets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\c-ares\c-ares-targets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonConfig.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonConfigVersion.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonTargets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonTargets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonTargets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\DrogonUtilities.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\FindBrotli.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\FindFilesystem.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\FindJsoncpp.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\drogon\ParseAndAddDrogonTests.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-config-version.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-config.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-targets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-targets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\fmt\fmt-targets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestConfig.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestConfigVersion.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestTargets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestTargets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\gtest\GTestTargets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-config-version.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-config.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-targets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-targets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\hiredis\hiredis-targets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-config-version.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-config.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-targets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-targets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\libpqxx\libpqxx-targets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\openssl\vcpkg-cmake-wrapper.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\postgresql\vcpkg-cmake-wrapper.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfig.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfigTargets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfigTargets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfigTargets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\spdlog\spdlogConfigVersion.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorConfig.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorConfigVersion.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorTargets-debug.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorTargets-release.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\trantor\TrantorTargets.cmake;C:\Users\user\vcpkg\installed\x64-windows\share\zlib\vcpkg-cmake-wrapper.cmake;C:\Users\user\vcpkg\scripts\buildsystems\vcpkg.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\user\Desktop\proxy server\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\user\Desktop\proxy server\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\user\Desktop\proxy server\build\ZERO_CHECK.vcxproj">
+      <Project>{7AAD6E08-B54B-354B-8E8D-C5F499B96F7B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\user\Desktop\proxy server\build\proxy_core.vcxproj">
+      <Project>{58D116DD-6675-3416-9E7E-226B89E397C8}</Project>
+      <Name>proxy_core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

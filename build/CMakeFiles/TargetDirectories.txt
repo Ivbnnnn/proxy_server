@@ -1,0 +1,15 @@
+C:/Users/user/Desktop/proxy server/build/CMakeFiles/Experimental.dir
+C:/Users/user/Desktop/proxy server/build/CMakeFiles/Nightly.dir
+C:/Users/user/Desktop/proxy server/build/CMakeFiles/Continuous.dir
+C:/Users/user/Desktop/proxy server/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/user/Desktop/proxy server/build/CMakeFiles/proxy_core.dir
+C:/Users/user/Desktop/proxy server/build/CMakeFiles/http_proxy_server.dir
+C:/Users/user/Desktop/proxy server/build/CMakeFiles/proxy_unit_tests.dir
+C:/Users/user/Desktop/proxy server/build/CMakeFiles/scenario_whitelist_crud.dir
+C:/Users/user/Desktop/proxy server/build/CMakeFiles/scenario_proxy_cache.dir
+C:/Users/user/Desktop/proxy server/build/CMakeFiles/scenario_block_and_log.dir
+C:/Users/user/Desktop/proxy server/build/CMakeFiles/scenario_cache_admin_flow.dir
+C:/Users/user/Desktop/proxy server/build/CMakeFiles/scenario_export_requests.dir
+C:/Users/user/Desktop/proxy server/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/user/Desktop/proxy server/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/user/Desktop/proxy server/build/CMakeFiles/ZERO_CHECK.dir

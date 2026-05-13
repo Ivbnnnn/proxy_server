@@ -1,0 +1,12 @@
+C:\Users\user\Desktop\proxy server\src\Types.cpp;C:\Users\user\Desktop\proxy server\build\proxy_core.dir\Debug\Types.obj
+C:\Users\user\Desktop\proxy server\src\AdminUser.cpp;C:\Users\user\Desktop\proxy server\build\proxy_core.dir\Debug\AdminUser.obj
+C:\Users\user\Desktop\proxy server\src\WhitelistRule.cpp;C:\Users\user\Desktop\proxy server\build\proxy_core.dir\Debug\WhitelistRule.obj
+C:\Users\user\Desktop\proxy server\src\CacheEntry.cpp;C:\Users\user\Desktop\proxy server\build\proxy_core.dir\Debug\CacheEntry.obj
+C:\Users\user\Desktop\proxy server\src\RequestRecord.cpp;C:\Users\user\Desktop\proxy server\build\proxy_core.dir\Debug\RequestRecord.obj
+C:\Users\user\Desktop\proxy server\src\AppLogger.cpp;C:\Users\user\Desktop\proxy server\build\proxy_core.dir\Debug\AppLogger.obj
+C:\Users\user\Desktop\proxy server\src\DBService.cpp;C:\Users\user\Desktop\proxy server\build\proxy_core.dir\Debug\DBService.obj
+C:\Users\user\Desktop\proxy server\src\RedisService.cpp;C:\Users\user\Desktop\proxy server\build\proxy_core.dir\Debug\RedisService.obj
+C:\Users\user\Desktop\proxy server\src\FilterService.cpp;C:\Users\user\Desktop\proxy server\build\proxy_core.dir\Debug\FilterService.obj
+C:\Users\user\Desktop\proxy server\src\CacheService.cpp;C:\Users\user\Desktop\proxy server\build\proxy_core.dir\Debug\CacheService.obj
+C:\Users\user\Desktop\proxy server\src\ProxyController.cpp;C:\Users\user\Desktop\proxy server\build\proxy_core.dir\Debug\ProxyController.obj
+C:\Users\user\Desktop\proxy server\src\AdminUI.cpp;C:\Users\user\Desktop\proxy server\build\proxy_core.dir\Debug\AdminUI.obj
