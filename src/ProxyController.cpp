@@ -106,17 +106,21 @@ void ProxyController::handleRequestAsync(
         response.body = upstream->body;
         response.headers = upstream->headers;
 
-        CacheEntry freshEntry(
-            cacheKey,
-            url,
-            method,
-            response.statusCode,
-            response.body,
-            response.headers,
-            cacheService.getDefaultTtlSeconds());
+        if (response.statusCode < 500) {
+            CacheEntry freshEntry(
+                cacheKey,
+                url,
+                method,
+                response.statusCode,
+                response.body,
+                response.headers,
+                cacheService.getDefaultTtlSeconds());
 
-        cacheService.put(freshEntry);
-        logger.info("Request forwarded and cached url=" + url + ", ip=" + clientIp);
+            cacheService.put(freshEntry);
+            logger.info("Request forwarded and cached url=" + url + ", ip=" + clientIp);
+        } else {
+            logger.warn("Request forwarded without cache url=" + url + ", status=" + std::to_string(response.statusCode));
+        }
         persistAndComplete(std::move(response));
     });
 }

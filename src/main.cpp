@@ -133,7 +133,13 @@ void applyFlattenedHeaders(const std::string& text, const drogon::HttpResponsePt
         const std::string key = line.substr(0, pos);
         const std::string value = line.substr(pos + 1);
         const std::string keyLower = proxy::toLower(key);
-        if (keyLower == "content-length" || keyLower == "transfer-encoding") {
+        if (keyLower == "content-length" ||
+            keyLower == "transfer-encoding" ||
+            keyLower == "location" ||
+            keyLower == "cache-control" ||
+            keyLower == "expires" ||
+            keyLower == "etag" ||
+            keyLower == "last-modified") {
             continue;
         }
         if (!key.empty() && !value.empty()) {
@@ -238,7 +244,7 @@ int main() {
         const auto parsed = parseTarget(targetUrl);
         if (!parsed.has_value()) {
             logger.warn("Invalid target URL: " + targetUrl);
-            callback(std::nullopt);
+            callback(ProxyController::UpstreamResponse{400, "Invalid target URL", "Content-Type:text/plain"});
             return;
         }
 
@@ -250,9 +256,14 @@ int main() {
 
         client->sendRequest(
             outReq,
-            [callback = std::move(callback)](drogon::ReqResult result, const drogon::HttpResponsePtr& response) mutable {
+            [callback = std::move(callback), &logger, targetUrl](drogon::ReqResult result, const drogon::HttpResponsePtr& response) mutable {
                 if (result != drogon::ReqResult::Ok || !response) {
-                    callback(std::nullopt);
+                    const std::string reason = drogon::to_string(result);
+                    logger.error("Upstream HTTP client failed url=" + targetUrl + ", reason=" + reason);
+                    callback(ProxyController::UpstreamResponse{
+                        502,
+                        "Failed to fetch upstream response: " + reason,
+                        "Content-Type:text/plain"});
                     return;
                 }
                 ProxyController::UpstreamResponse upstream;
@@ -300,7 +311,11 @@ int main() {
                 [callback = std::move(callback), &logger, targetUrl](ProxyController::ProxyResponse result) mutable {
                     auto response = drogon::HttpResponse::newHttpResponse();
                     const bool upstreamRedirect = result.statusCode >= 300 && result.statusCode < 400;
-                    response->setCustomStatusCode(upstreamRedirect ? 200 : result.statusCode);
+                    if (upstreamRedirect) {
+                        response->setStatusCode(drogon::k200OK);
+                    } else {
+                        response->setCustomStatusCode(result.statusCode);
+                    }
                     response->setBody(result.body);
                     if (result.headers.empty()) {
                         response->setContentTypeCode(drogon::CT_TEXT_PLAIN);
@@ -314,6 +329,8 @@ int main() {
                     response->addHeader("X-Proxy-Cache-Hit", result.cacheHit ? "true" : "false");
                     response->addHeader("X-Proxy-Upstream-Status", std::to_string(result.statusCode));
                     response->addHeader("X-Proxy-Response-Time-Ms", std::to_string(result.responseTimeMs));
+                    response->addHeader("Cache-Control", "no-store");
+                    response->addHeader("Pragma", "no-cache");
                     addCorsHeaders(response);
                     logger.info(
                         "HTTP /proxy completed: url=" + targetUrl +

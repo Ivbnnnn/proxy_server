@@ -240,6 +240,9 @@ Drogon_DIR:PATH=C:/Users/user/vcpkg/installed/x64-windows/share/drogon
 //TRUE if we can run a program using std::filesystem
 Filesystem_FOUND:BOOL=TRUE
 
+//Path to a program.
+GITCOMMAND:FILEPATH=C:/Program Files/Git/cmd/git.exe
+
 //The directory containing a CMake configuration file for GTest.
 GTest_DIR:PATH=C:/Users/user/vcpkg/installed/x64-windows/share/gtest
 
@@ -548,6 +551,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_PostgreSQL:INTERNAL=[optimized;C:/Users/user/vcpkg/
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding ZLIB
 FIND_PACKAGE_MESSAGE_DETAILS_ZLIB:INTERNAL=[optimized;C:/Users/user/vcpkg/installed/x64-windows/lib/zlib.lib;debug;C:/Users/user/vcpkg/installed/x64-windows/debug/lib/zlibd.lib][C:/Users/user/vcpkg/installed/x64-windows/include][ ][v1.3.1()]
+//ADVANCED property for variable: GITCOMMAND
+GITCOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: JSONCPP_INCLUDE_DIRS
 JSONCPP_INCLUDE_DIRS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: JSONCPP_LIBRARIES

@@ -6,6 +6,7 @@ import {
   Gauge,
   Globe2,
   ListRestart,
+  Pencil,
   Plus,
   RefreshCw,
   Save,
@@ -406,7 +407,7 @@ export function App() {
                       <td className="px-4 py-3">
                         <div className="flex justify-end gap-2">
                           <button className="btn" type="button" onClick={() => editRule(rule)}>
-                            <Save size={15} />
+                            <Pencil size={15} />
                           </button>
                           <button className="btn btn-danger" type="button" onClick={() => deleteRule(rule.id)}>
                             <Trash2 size={15} />
